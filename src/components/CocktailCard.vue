@@ -32,9 +32,10 @@ export default {
             </div>
             
             
-            <!-- <router-link class="btn btn-success"
-                :to="{ name: 'project-page', params: { id: cocktail.id } }">Dettagli</router-link> -->
+             <router-link class="btn btn-success"
+                :to="{ name: 'show-cocktail', params: { id: cocktail.id } }">Dettagli</router-link>
 
+            
         </div>
     </div>
 
