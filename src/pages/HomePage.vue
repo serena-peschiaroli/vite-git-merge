@@ -1,12 +1,12 @@
 <script>
 import axios from 'axios';
-import { store } from './store.js';
+import { store } from '../store.js';
 export default {
     data() {
         return {
             store,
             cocktails: [],
-            
+
         }
     }
 }
@@ -15,6 +15,8 @@ export default {
 
 
 <template>
+
+    <h1> TEST</h1>
     
 
 </template>

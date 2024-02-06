@@ -12,7 +12,9 @@ export default {
 }
 </script>
 
-<template></template>
+<template>
+  <HomePage/>
+</template>
 
 
 <style lang="scss">
