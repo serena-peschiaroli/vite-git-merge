@@ -1,5 +1,6 @@
 <script>
 import HomePage from './pages/HomePage.vue';
+
 export default {
   data(){
     return{
@@ -7,13 +8,14 @@ export default {
     }
   },
   components: {
-    HomePage
+  
   }
 }
 </script>
 
 <template>
-  <HomePage/>
+  
+  <router-view></router-view>
 </template>
 
 
